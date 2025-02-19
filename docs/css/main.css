@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
+
+
 @font-face {
   font-family: Bebas;
   src: url('../fonts/BebasKai-Regular.otf');
@@ -20,6 +22,8 @@ body {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
+
+
 
 a {
   text-decoration: none;
@@ -196,7 +200,7 @@ a {
 }
 
 .info-story {
-  background: #000;
+  background: yellow;
   transform: translateZ(0) scale(1);
   z-index: 8;
   display: flex;
@@ -225,6 +229,7 @@ a {
 
 .info-story h2,
 .info-story p {
+	color:purple;
   margin-bottom: 1rem;
 }
 
