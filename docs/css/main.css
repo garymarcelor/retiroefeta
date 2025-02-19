@@ -200,7 +200,7 @@ a {
 }
 
 .info-story {
-  background: yellow;
+  background-color: #ffaf00;
   transform: translateZ(0) scale(1);
   z-index: 8;
   display: flex;
