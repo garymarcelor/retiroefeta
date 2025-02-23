@@ -210,6 +210,17 @@ a {
   text-align: center;
 }
 
+.info-black-container {
+  background: black;
+  transform: translateZ(0) scale(1);
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .info-story {
   background-color: #ffaf00;
   transform: translateZ(0) scale(1);
@@ -236,7 +247,10 @@ a {
   width: 100%;
   height: auto;
 }
-
+.info-black-container video{
+  width: 100%;
+  height: auto;
+}
 
 .info-story img {
   width: 75%;
@@ -299,6 +313,11 @@ a {
 }
 
 .info-image-purple-container video {
+  width: auto;
+  height: 100%;
+}
+
+.info-black-container video{
   width: auto;
   height: 100%;
 }
