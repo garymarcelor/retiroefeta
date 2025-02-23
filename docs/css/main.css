@@ -232,6 +232,11 @@ a {
   width: 100%;
   margin-bottom: 2.5rem;
 }
+.info-image-purple-container video {
+  width: 100%;
+  height: auto;
+}
+
 
 .info-story img {
   width: 75%;
@@ -291,6 +296,11 @@ a {
 	justify-self: end;
 	width: auto;
 	height: 100%;
+}
+
+.info-image-purple-container video {
+  width: auto;
+  height: 100%;
 }
 
   .info-story {
